@@ -1,5 +1,9 @@
 // Custom comparator to compare concatenated strings
+
+let count =0;
 function myCompare(s1, s2) {
+
+    count++;
     return (s1 + s2) > (s2 + s1);
 }
 
@@ -8,6 +12,7 @@ function findLargest(arr) {
     
     // Convert the array elements to strings
     let numbers = arr.map(String);
+
     console.log(numbers);
 
     // Sort the array using the custom comparator
@@ -16,9 +21,11 @@ function findLargest(arr) {
     // Handle the case where all numbers are zero.
     // We are sorting in descending order, so zero 
     // in front means the complete array contains zero
-    if (numbers[0] === "0") {
+   if (numbers.every(n => n === "0")) {
         return "0";
     }
+
+    console.log(numbers)
 
     // Concatenate the sorted array
     return numbers.join('');
@@ -30,11 +37,13 @@ console.log(findLargest(arr));
 
 function sortArr(arr)
 {
-    return arr.sort((a,b) =>b-a);
+    return arr.sort((a,b)=> a-b);
 }
 
 console.log(sortArr(arr));
 
+
+console.log("count",count)
 
 
 // -1 → "Yes, keep a in front"
