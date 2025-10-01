@@ -12,3 +12,5 @@
 
 
 ## [Fibonacci](https://namastedev.com/practice/fibonacci-series)
+
+## [PowerFour](https://namastedev.com/practice/power-of-four)

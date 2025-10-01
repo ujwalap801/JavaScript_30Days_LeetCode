@@ -1,25 +1,42 @@
-function fun() {
-  let a = 10;
-  return () => {
-    console.log(a);
-    a = 20;
-  }
+// function sum(a, b, c)
+// {
+//   return a+b+c;
+// }
+
+// function curry(a, b,sum)
+// {
+
+//  return sum(a, b, sum)
+// }
+
+
+
+// const carriedSum = curry(sum);
+// console.log(carriedSum(1,2,3))
+
+
+function add(x,y)
+{
+  return x+y;
 }
 
-const fun1 = fun(); 
+function calculateSum(x, y, operation)
+{
+  return operation(x,y);
+}
 
-const fun2 = fun(); 
-
-fun1(); //10
-fun1();//20
-fun2();//10
-
-fun1(); //20
-fun2(); //20
-fun1(); //20
+console.log(calculateSum(1, 2, add))
 
 
-var arr = [1, 0, 1, 4, 5, '1', '10', 'a', 'b', 'z'];
+function sum(a, b, c)
+{
+  return a+ b+c;
+}
 
 
-console.log(arr.sort((a,b)=>b-a))
+const curriedSum = curry(sum)
+
+curriedSum(1)(2)(3)
+curriedSum(1, 2)(3)
+curriedSum(1)(2, 3)
+curriedSum(1, 2, 3)
