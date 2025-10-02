@@ -14,3 +14,5 @@
 ## [Fibonacci](https://namastedev.com/practice/fibonacci-series)
 
 ## [PowerFour](https://namastedev.com/practice/power-of-four)
+
+## [Array_Flat](https://namastedev.com/practice/flatten-nested-array)
