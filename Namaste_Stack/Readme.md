@@ -1,0 +1,1 @@
+## [Implement__Stack](https://namastedev.com/practice/implement-a-stack)

@@ -16,3 +16,7 @@
 ## [PowerFour](https://namastedev.com/practice/power-of-four)
 
 ## [Array_Flat](https://namastedev.com/practice/flatten-nested-array)
+
+## [Reverse_Words](https://namastedev.com/practice/reversewords)
+
+## [Sum](https://namastedev.com/practice/sum)

@@ -1,42 +1,36 @@
-// function sum(a, b, c)
-// {
-//   return a+b+c;
-// }
+let btn = document.getElementById('btn');
 
-// function curry(a, b,sum)
-// {
+let parent = document.getElementById('parent');
 
-//  return sum(a, b, sum)
-// }
+let child = document.getElementById('child');
 
 
 
-// const carriedSum = curry(sum);
-// console.log(carriedSum(1,2,3))
-
-
-function add(x,y)
+parent.addEventListener('click',()=>
 {
-  return x+y;
-}
+    console.log("Parent called")
+}, true)
 
-function calculateSum(x, y, operation)
+child.addEventListener("click",()=>
 {
-  return operation(x,y);
-}
-
-console.log(calculateSum(1, 2, add))
+    console.log("Child called")
+}, true)
 
 
-function sum(a, b, c)
+btn.addEventListener("click",()=>
 {
-  return a+ b+c;
-}
+    console.log("btn called")
+}, true)
 
 
-const curriedSum = curry(sum)
+const list = document.getElementById('list');
 
-curriedSum(1)(2)(3)
-curriedSum(1, 2)(3)
-curriedSum(1)(2, 3)
-curriedSum(1, 2, 3)
+list.addEventListener('click',(e)=>
+{
+    console.log(e)
+
+    if(e.target.tagName === 'LI')
+    {
+        console.log(e.target.textContent)
+    }
+})
