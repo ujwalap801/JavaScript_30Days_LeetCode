@@ -13,10 +13,14 @@
 
 ## [Fibonacci](https://namastedev.com/practice/fibonacci-series)
 
+
+## [Function_Once](https://namastedev.com/practice/oncefn)
 ## [PowerFour](https://namastedev.com/practice/power-of-four)
 
 ## [Array_Flat](https://namastedev.com/practice/flatten-nested-array)
 
 ## [Reverse_Words](https://namastedev.com/practice/reversewords)
+
+## [Sort_Num_Char](https://namastedev.com/practice/custom-sort)
 
 ## [Sum](https://namastedev.com/practice/sum)
