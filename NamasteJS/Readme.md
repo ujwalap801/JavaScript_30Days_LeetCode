@@ -4,7 +4,12 @@
 
 ## [Array_Flat](https://namastedev.com/practice/flatten-nested-array)
 
+
+## [Capital_Word](https://namastedev.com/practice/capitalize-words)
+
 ## [Count_Vowels](https://namastedev.com/practice/count-vowels)
+
+## [Curry_Implement](https://namastedev.com/practice/implement-curry)
 
 ## [Fibonacci](https://namastedev.com/practice/fibonacci-series)
 

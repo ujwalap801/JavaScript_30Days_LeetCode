@@ -5,7 +5,7 @@ function getResultByPath(path, obj) {
 
 const normalize = path.replace(/\[(\d+)\]/g,'.$1')
   const keys = normalize.split('.');
-  const result = obj;
+let result = obj;
 
   for (let k of keys) {
     if (result === undefined || result === null) break;
