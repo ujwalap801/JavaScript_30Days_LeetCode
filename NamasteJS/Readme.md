@@ -4,10 +4,11 @@
 
 ## [Array_Flat](https://namastedev.com/practice/flatten-nested-array)
 
-
 ## [Capital_Word](https://namastedev.com/practice/capitalize-words)
 
 ## [Count_Vowels](https://namastedev.com/practice/count-vowels)
+
+## [Counter](https://namastedev.com/practice/make-counter)
 
 ## [Curry_Implement](https://namastedev.com/practice/implement-curry)
 
@@ -20,6 +21,12 @@
 ## [Function_Once](https://namastedev.com/practice/oncefn)
 
 ## [Largest_Number_Formed](https://namastedev.com/practice/largest-number-formed)
+
+
+## [Max_SubArray_k](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+## [Max_SubArraySum](https://namastedev.com/practice/max-subarray)
+
 
 ## [Missing_Number](https://namastedev.com/practice/find-missing-number)
 
@@ -34,6 +41,8 @@
 ## [Remove_Duplicates_Array](https://namastedev.com/practice/remove-duplicates-from-array)
 
 ## [Reverse_Words](https://namastedev.com/practice/reversewords)
+
+## [Secret_Shuffle](https://namastedev.com/practice/secret-code-shuffler)
 
 ## [Sort_Num_Char](https://namastedev.com/practice/custom-sort)
 

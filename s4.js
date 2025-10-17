@@ -1,29 +1,24 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
- function twoSum (nums, target) {
-    let i =0;
-    let j = nums.length-1;
-    let ans=[];
 
-    while(i<=j)
+let arr1 =[3, -4, 5, 4, -1, 7, -8];
+
+function printSubArray(arr)
+{
+  let n= arr.length;
+  let maxSum = -Infinity;
+  let currentSum =0;
+  for(let i=0;i<n;i++)
+  {
+    currentSum += arr[i];
+    maxSum = Math.max(currentSum, maxSum);
+    if(currentSum <0)
     {
-        let sum = nums[i]+nums[j]
-        // console.log(j)
-
-        if(sum === target)
-        {
-            // console.log(j)
-           ans.push([i,j]);
-        }
-
-        i++;
-        j--;
+      currentSum = 0
     }
 
-    return ans;
-};
+  }
 
-console.log(twoSum([2,7,11,15], 9))
+  return maxSum;
+}
+
+
+console.log(printSubArray(arr1))
