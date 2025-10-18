@@ -40,7 +40,18 @@ function sortArr(arr)
     return arr.sort((a,b)=> a-b);
 }
 
+
 console.log(sortArr(arr));
+
+
+console.log("count",count)
+
+function sortArr1(arr)
+{
+    return arr.sort((a,b)=> b-a);
+}
+
+console.log(sortArr1(arr));
 
 
 console.log("count",count)

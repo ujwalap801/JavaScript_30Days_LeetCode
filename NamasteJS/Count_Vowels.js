@@ -1,54 +1,74 @@
-// let s ="Javascript";
-
-let s ="   Hello   woAEld"
-
-function vowels(s)
-{
-    let vowelArr =['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-
-    s = s.split("");
-
-    let i=0;
-
-    let count =0;
-    while(i <s.length)
-    {
-        if(vowelArr.includes(s[i]))
-        {
-            count++;
-
-        }
-        i++;
-
-    }
 
 
-    return count;
+
+function countVowels(str) {
+    // Your implementation
+    if (str.length === 0) return 0;
+    let count = str.match(/[aeiou]/gi);
+    if (count === null) return 0;
+  
+    return count.length;
+   
 }
 
 
-console.log(vowels(s));
+//For the purpose of user debugging.
+countVowels("JavaScript");
+
+module.exports = countVowels
 
 
 
 
 
-function vowels(s) {
-    let vowelArr = new Set(['a','e','i','o','u','A','E','I','O','U']);
+function countVowels(str) {
+    // Your implementation
+    if (str.length === 0) return 0;
+    let vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+    // let vowels ="aeiouAEIOU"
     let count = 0;
+    // for (let n of str)
+    // {
 
-    for (let ch of s) {
-        if (vowelArr.has(ch)) {
+    //     if (vowels.includes(n))
+    //     {
+    //         count++;
+    //     }
+    // }
+
+    for (let n of str) {
+
+        if (vowels.includes(n)) {
+            count++;
+        }
+    }
+    return count;
+
+}
+
+//For the purpose of user debugging.
+console.log(countVowels("JavaScript"));
+
+module.exports = countVowels
+
+
+// Second
+
+function countVowels(str) {
+    // Your implementation
+    if (str.length === 0) return 0;
+
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        let ch = str[i];
+        if (ch.match(/[aeiou]/gi)) {
             count++;
         }
     }
     return count;
 }
 
+//For the purpose of user debugging.
+countVowels("JavaScript");
 
-let s1 = "   Hello   woAEld  JavaScript  ";
-let words = s1.split(/\s+/);
-console.log(words);
-
-
-// ["", "Hello", "woAEld", "JavaScript", ""]
+module.exports = countVowels

@@ -25,3 +25,34 @@ function validatePalindrome(str) {
 validatePalindrome("race a car");
 
 module.exports = validatePalindrome
+
+
+
+
+function validatePalindrome(str) {
+
+    str = str.toLowerCase().match(/[a-z0-9]/gi) || []
+
+ 
+    let i = 0;
+    let j = str.length - 1;
+    while (i < j)
+    {
+        if (str[i] !== str[j])
+        {
+            return false;
+        }
+        i++;
+        j--;
+    }
+
+    return true;
+  
+}
+
+//For the purpose of user debugging.
+validatePalindrome("1234");
+
+// validatePalindrome("")
+
+module.exports = validatePalindrome

@@ -1,24 +1,9 @@
+let myArray = ['apple', 'banana'];
 
-let arr1 =[3, -4, 5, 4, -1, 7, -8];
-
-function printSubArray(arr)
+function array(myArray)
 {
-  let n= arr.length;
-  let maxSum = -Infinity;
-  let currentSum =0;
-  for(let i=0;i<n;i++)
-  {
-    currentSum += arr[i];
-    maxSum = Math.max(currentSum, maxSum);
-    if(currentSum <0)
-    {
-      currentSum = 0
-    }
-
-  }
-
-  return maxSum;
+return myArray.push('orange', 'grape');
 }
 
 
-console.log(printSubArray(arr1))
+console.log(array(myArray))
