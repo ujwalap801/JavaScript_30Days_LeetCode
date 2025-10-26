@@ -1,7 +1,6 @@
 function reverseWords(s) {
     // Your implementation
 
-
     s = s.split(" ")
     let ans = [];
 
