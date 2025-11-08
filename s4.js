@@ -1,13 +1,17 @@
-const obj1 = { a: 1, b: 2 }
-
-const obj2 = { a: 1, b: 2 }
-const obj3 =obj2
+// console.log(Object.is(NaN, NaN))
 
 
-console.log(obj1 === obj2); 
+// console.log(NaN === NaN); 
 
-const a = Object.entries(obj1);
-console.log(typeof a);
 
-const b= JSON.stringify(a);
-console.log(typeof b);
+// console.log(Object.is(3, 3))
+
+// console.log(Number('hello'));
+
+// console.log(isNaN('helloo'));
+
+// console.log(isNaN(isNaN));
+
+console.log(0 ===-0)
+
+console.log(0 == -0)

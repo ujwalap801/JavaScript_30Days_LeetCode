@@ -6,6 +6,9 @@
 
 ## [Capital_Word](https://namastedev.com/practice/capitalize-words)
 
+## [Count_Negative](https://namastedev.com/practice/count-negative)
+
+
 ## [Count_Vowels](https://namastedev.com/practice/count-vowels)
 
 ## [Counter](https://namastedev.com/practice/make-counter)

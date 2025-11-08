@@ -5,3 +5,7 @@
 ## [JSON_Stringify](https://namastedev.com/practice/jsonstringify)
 
 ## [Memorization](https://namastedev.com/practice/memoization)
+
+## [Merge_Array](https://namastedev.com/practice/merge-array)
+
+## [Throttle](https://namastedev.com/practice/throttle)
