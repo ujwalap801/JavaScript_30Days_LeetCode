@@ -4,6 +4,8 @@
 
 ## [JSON_Stringify](https://namastedev.com/practice/jsonstringify)
 
+## [List_Format](https://namastedev.com/practice/list-format)
+
 ## [Memorization](https://namastedev.com/practice/memoization)
 
 ## [Merge_Array](https://namastedev.com/practice/merge-array)
